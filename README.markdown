@@ -202,7 +202,7 @@ Very similarly to natural numbers and lists, tuples have a natural implementatio
 Is the same as:
 
 ```haskell
-(t -> (a b c))
+(t -> (t a b c))
 ```
 
 And expands to/from the Lambda Calculus as:
